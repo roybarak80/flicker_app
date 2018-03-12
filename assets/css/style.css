@@ -32,3 +32,7 @@ img.card-img-top{
 .carousel {
     margin-bottom: 0;
 }
+#results span{
+   font-weight: 600;
+
+}

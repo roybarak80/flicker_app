@@ -23,7 +23,7 @@
 
         <header>
                 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-                  <a class="navbar-brand" href="#"> <img src="https://s.yimg.com/pw/images/flickr_logo_gn_styleguide_1x.png"/></a>
+                  <a class="navbar-brand" onclick="reloadHome()"> <img src="https://s.yimg.com/pw/images/flickr_logo_gn_styleguide_1x.png"/></a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -62,11 +62,9 @@
       <div class="album py-5 bg-light">
         <div class="container">
            
-
+          <div id="results"></div>
           <div class="row">
-              <div id="Center">
-                  <ul id="waterfall"></ul>
-              </div>
+              
           </div>
         </div>
       </div>
@@ -83,7 +81,7 @@
     <script src="https://getbootstrap.com/assets/js/vendor/popper.min.js"></script>
     <script src="https://getbootstrap.com/dist/js/bootstrap.min.js"></script>
     <script src="https://getbootstrap.com/assets/js/vendor/holder.min.js"></script>
-    <script type="text/javascript" src="assets/js/newWaterfall.js"></script>
+   
     <script src="assets/js/script.js"></script>
   </body>
 </html>
