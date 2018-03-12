@@ -1,0 +1,34 @@
+img.card-img-top{
+    height:15rem!important;
+}
+
+.col-md-4{
+    padding-top: 30px;
+}
+.card-body{
+    position: relative;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.card-cont{
+    line-height: 1.2
+}
+
+.text-muted{
+    float: right;
+}
+.album.py-5.bg-light{
+    padding-top: calc(var(--jumbotron-padding-y) * 2)!important;
+    padding-bottom: calc(var(--jumbotron-padding-y) * 2)!important;
+}
+
+.navbar-collapse.collapse{
+    justify-content: flex-end;
+
+}
+
+.carousel {
+    margin-bottom: 0;
+}
